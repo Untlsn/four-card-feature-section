@@ -8,6 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@components': path.resolve('./src/components'),
+      '@assets': path.resolve('./src/assets'),
       'lodash': 'lodash-es',
     }
   }
