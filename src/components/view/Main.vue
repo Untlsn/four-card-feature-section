@@ -1,15 +1,15 @@
 <script lang="ts">
 import { defineComponent } from "vue";
+import Title from "@components/organisms/Title.vue";
 
 export default defineComponent({
   name: 'Main',
+  components: { Title },
 })
 </script>
 
 <template>
-  <div class="h-screen flex items-center justify-center font-bold text-4xl">
-    Hello World!
-  </div>
+  <Title />
 </template>
 
 <style scoped>
