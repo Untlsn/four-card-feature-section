@@ -51,7 +51,7 @@ export default defineComponent({
 
 <template>
   <Title />
-  <div class="px-[15vw] h-[65%] grid grid-cols-3 grid-rows-4 grid-schema gap-6">
+  <div class="px-[15vw] h-[65%] lg:grid grid-cols-3 grid-rows-4 grid-schema gap-6">
     <Card
         v-for="card in cards"
         :key="card.title"

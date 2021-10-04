@@ -25,11 +25,12 @@ export default defineComponent({
 <template>
   <div
       :style="{ 'border-top-color': barColor }"
-      class="rounded bg-white shadow-2xl grid-area border-solid border-0 border-t-4 pl-6 relative cursor-pointer hover-scale"
+      class="rounded bg-white shadow-2xl grid-area border-solid border-0 border-t-4
+      pl-6 pr-2 relative cursor-pointer hover-scale h-64 mb-6 lg:h-auto lg:mb-0"
   >
     <h3 class="capitalize text-gray-900">{{ title }}</h3>
     <p class="text-gray-400">{{ text }}</p>
-    <img :src="imgSrc" alt="" class="absolute bottom-4 right-4">
+    <img :src="imgSrc" alt="" class="absolute bottom-4 right-4 h-[30%]">
   </div>
 </template>
 
